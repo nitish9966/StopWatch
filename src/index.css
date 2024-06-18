@@ -4,14 +4,49 @@
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 25px;
+  flex-wrap: nowrap;
+  width: 550px;
+  margin-left: 33vw;
+  background-color: hsl(0, 0%, 100%);
 }
 .timer{
   font-size: 5rem;
   justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
 }
 .controller{
   padding: 10px;
 }
-
+.controller button{
+  font-size: 2rem;
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 2px 1px 2px 1px;
+  color: rgb(253, 254, 255);
+}
+.start-b{
+  background-color: hsl(138, 100%, 51%);
+}
+.start-b:hover{
+  background-color: hsla(138, 100%, 50%, 0.697);
+}
+.reset-b{
+  background-color: hsl(193, 100%, 50%);
+}
+.reset-b:hover{
+  background-color: hsl(188, 100%, 50%);
+}
+.stop-b{
+  background-color: hsl(0, 100%, 50%);
+}
+.stop-b:hover{
+  background-color: rgba(255, 0, 0, 0.796);
+}
+body{
+  background-color: hsl(0, 0%, 82%);
+}
